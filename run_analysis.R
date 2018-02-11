@@ -122,7 +122,7 @@ run_analysis.run = function()
                                       list(subject=ms_combined_set$subject,activity=ms_combined_set$activity),
                                       mean)
     message("[5][1] Creating tidy set... DONE!")
-    message("[5][2] Writing to file tidy_data_set.csv...")
-    write.csv(tidy_ms_combined_set,"tidy_data_set.csv",row.names=FALSE)
-    message("[5][2] Writing to file tidy_data_set.csv... DONE!")
+    message("[5][2] Writing to file tidy_data_set.txt...")
+    write.table(tidy_ms_combined_set,"tidy_data_set.txt",row.names=FALSE)
+    message("[5][2] Writing to file tidy_data_set.txt... DONE!")
 }
