@@ -1,5 +1,4 @@
 # Running the script
----
 `source("run_analysis.R")`  
 `run_analysis.run()`
 
@@ -11,4 +10,3 @@ The script has six stages.
 [3] - Renames the activities based from the activity_labels.txt  
 [4] - Renames the labels based from features.txt  
 [5] - Creates a tidy set based from the previous stages and writes it to tidy_data_set.csv  
-
